@@ -1,10 +1,10 @@
 # terraform-azuredevops-project
 
-## Deploys a Azure Key Vault. Monitoring support can be added through Azure Log Analytics
+## Deploys a Azure DevOps Project.
 
 [![Terraform](https://github.com/imjoseangel/terraform-azuredevops-project/actions/workflows/terraform.yml/badge.svg)](https://github.com/imjoseangel/terraform-azuredevops-project/actions/workflows/terraform.yml)
 
-This Terraform module deploys a Key Vault on Azure
+This Terraform module deploys a Project on Azure DevOps.
 
 ### NOTES
 
