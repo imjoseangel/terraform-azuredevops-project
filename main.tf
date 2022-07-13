@@ -19,9 +19,9 @@ resource "azuredevops_project" "main" {
 
 resource "azuredevops_serviceendpoint_azurerm" "mainazurerm" {
   project_id                = azuredevops_project.main.id
-  service_endpoint_name     = var.serviceendpoint.service_endpoint_name
-  description               = var.serviceendpoint.description
-  azurerm_spn_tenantid      = var.serviceendpoint.tenantid
-  azurerm_subscription_id   = var.serviceendpoint.subscription_id
-  azurerm_subscription_name = var.serviceendpoint.subscription_name
+  service_endpoint_name     = var.service_endpoint_name
+  description               = var.description
+  azurerm_spn_tenantid      = var.tenantid
+  azurerm_subscription_id   = var.subscription_id
+  azurerm_subscription_name = var.subscription_name
 }
