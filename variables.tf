@@ -33,12 +33,6 @@ variable "service_endpoint_name" {
   type        = string
 }
 
-variable "description" {
-  description = "Description of the Azure DevOps service endpoint"
-  default     = "Managed by Terraform"
-  type        = string
-}
-
 variable "tenantid" {
   description = "Tenant ID of the Azure DevOps service endpoint"
   type        = string
