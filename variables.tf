@@ -30,10 +30,10 @@ variable "work_item_template" {
 variable "features" {
   type = map(string)
   default = {
-    "boards"       = "True"
-    "repositories" = "True"
-    "pipelines"    = "True"
-    "testplans"    = "False"
-    "artifacts"    = "False"
+    "boards"       = "enabled"
+    "repositories" = "enabled"
+    "pipelines"    = "enabled"
+    "testplans"    = "disabled"
+    "artifacts"    = "disabled"
   }
 }
