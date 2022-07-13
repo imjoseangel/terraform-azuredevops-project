@@ -11,7 +11,7 @@ variable "description" {
 
 variable "visibility" {
   description = "Visibility of the Azure DevOps project"
-  default     = "Private"
+  default     = "private"
   type        = string
 }
 
@@ -30,10 +30,10 @@ variable "work_item_template" {
 variable "features" {
   type = map(string)
   default = {
-    "boards"       = true
-    "repositories" = true
-    "pipelines"    = true
-    "testplans"    = false
-    "artifacts"    = false
+    "boards"       = "True"
+    "repositories" = "True"
+    "pipelines"    = "True"
+    "testplans"    = "False"
+    "artifacts"    = "False"
   }
 }
