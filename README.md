@@ -1,6 +1,6 @@
 # terraform-azuredevops-project
 
-## Deploys a Azure DevOps Project.
+## Deploys a Azure DevOps Project
 
 [![Terraform](https://github.com/imjoseangel/terraform-azuredevops-project/actions/workflows/terraform.yml/badge.svg)](https://github.com/imjoseangel/terraform-azuredevops-project/actions/workflows/terraform.yml)
 
