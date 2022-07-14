@@ -17,7 +17,11 @@ data "azurerm_client_config" "current" {}
 
 module "azuredevops" {
   source = "github.com/imjoseangel/terraform-azuredevops-project"
-  name   = var.tf_name
+  name                  = "myproject"
+  service_endpoint_name = "myproject-sa"
+  tenantid              = "000000ab-bf00-0000-e0ea-000b0e00000a"
+  subscription_id       = "00c0eac0-0d0d-0000-0d00-00de000ce000"
+  subscription_name     = "subscription-dev"
 }
 ```
 
