@@ -8,7 +8,7 @@ This Terraform module deploys a Project on Azure DevOps.
 
 ### NOTES
 
-* None for now
+* Add Service Connection - Only one so far
 
 ## Usage in Terraform 1.0
 
